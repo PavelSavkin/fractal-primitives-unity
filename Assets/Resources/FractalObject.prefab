@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2900026335473569436
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2900026335473569438}
+  - component: {fileID: 2900026335473569439}
+  - component: {fileID: 8158904682303846541}
+  m_Layer: 8
+  m_Name: FractalObject
+  m_TagString: Fractal
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2900026335473569438
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900026335473569436}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2900026335473569439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900026335473569436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a1a0669dd82c5c42bd49e0ee4bf000c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshes:
+  - {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+  - {fileID: 4300000, guid: 2b94a77077263ef42a0b8ebe335a06dc, type: 2}
+  - {fileID: 4300000, guid: 4d799b753e9d28b449354eb067b7a924, type: 2}
+  - {fileID: 4300000, guid: 1e5fd754cef465b4b971a4a45774c7e6, type: 2}
+  - {fileID: 4300000, guid: f2a6a09a8cbf4e745964c89df3729f80, type: 2}
+  - {fileID: 4300000, guid: fa532e8a1e6f8004aa8f6966b14b39a8, type: 2}
+  - {fileID: 4300000, guid: eebe15a7811302947903a6b4aaf9fdc2, type: 2}
+  - {fileID: 4300000, guid: d95aebad32fb2714992bac50260790be, type: 2}
+  - {fileID: 4300000, guid: 9e3b69c67ce8f6145a7351be03148a0f, type: 2}
+  material: {fileID: 2100000, guid: 4fce56e936cd226478c2d64ac9fc4897, type: 2}
+  maxDepth: 3
+  childScale: 0.5
+  spawnProbability: 0.5
+  scaleProbability: 0.5
+  scaleDownProbability: 0.5
+  maxTwist: 90
+--- !u!114 &8158904682303846541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2900026335473569436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a702ed2f4f381f647a5cc8863caf5a3d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
