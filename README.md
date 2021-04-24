@@ -16,7 +16,7 @@ This repository contains two steps.
 1. Generating primitive based fractals into `.fbx` format (Unity)
     - Depends on [FbxExporter](https://github.com/unity3d-jp/FbxExporter)
     - Used [Free Primitives](https://forum.unity.com/threads/release-free-primitives.234595/#post-1557127)
-1. Applying boolean operation to generated `.fbx` ensure watertight 3d mesh, saving as `.obj`. (Blender)
+1. Applying boolean operation to generated `.fbx` ensure watertight (one membrane, no holes, no meshes inside meshes) 3d mesh, saving as `.obj`. (Blender)
     - Depends on [booltron](https://github.com/mrachinskiy/booltron)
 
 ## 1. Data generation
