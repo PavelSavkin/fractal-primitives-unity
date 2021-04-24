@@ -52,9 +52,4 @@ public class Fractal2Fbx : MonoBehaviour
             }
         }
     }
-
-    void OnDestroy()
-    {
-        _exporter.Release();
-    }
 }
