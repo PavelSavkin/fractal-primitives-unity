@@ -21,7 +21,7 @@ This repository contains two steps.
 1. Applying boolean operation to generated `.fbx` ensure watertight (one membrane, no holes, no meshes inside meshes) 3d mesh, saving as `.obj`. (Blender)
     - Depends on [booltron](https://github.com/mrachinskiy/booltron)
 
-## 1. Data generation
+# 1. Data generation
 
 Tested with `Windows 10` with `Unity 2020.3.3f1`.
 
@@ -46,7 +46,7 @@ This project saves `.fbx` file, and processes them into watertight meshes using 
     - You also can add / remove / change Meshes to use for generating fractal primitives
 - Note that if you make depth deeper, increase `wait_time` in `FracatlGenerateAndSave`, since it'll take while to generate complete fractal tree and put primitives in.
 
-## 2. Boolean Operation
+# 2. Boolean Operation
 
 Tested with `Blender 2.9.1`.
 
