@@ -9,6 +9,8 @@ The aim is to generate 3d training data from scratch, to increase performance in
 
 Although no significant performance improvement has been found by training such networks by ONLY using this dataset, mixing this data with other existing data such as [ModelNet](https://modelnet.cs.princeton.edu/) and [ABC](https://deep-geometry.github.io/abc-dataset/) will help to gain performance.
 
+*Example neural network to use this:  [RPMNet](https://github.com/yewzijian/RPMNet/tree/74f6531968bc084e44231e397da640432cd42a4b), [PointNetLK](https://github.com/hmgoforth/PointNetLK), [DCP](https://github.com/WangYueFt/dcp)*
+
 # Content
 
 This repository contains two steps.
