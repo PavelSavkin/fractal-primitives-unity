@@ -41,6 +41,7 @@ This project saves `.fbx` file, and processes them into watertight meshes using 
 
 ### Customization
 - You can edit `FractalObject.prefab` in `Assets/Resources` to change generation behavior
+    - You also can add / remove / change Meshes to use for generating fractal primitives
 - Note that if you make depth deeper, increase `wait_time` in `FracatlGenerateAndSave`, since it'll take while to generate complete fractal tree and put primitives in.
 
 ## 2. Boolean Operation
@@ -49,6 +50,7 @@ Tested with `Blender 2.9.1`.
 
 ## Usage
 - install [booltron](https://github.com/mrachinskiy/booltron) into your Blender
+- Open Blender, delete all the detault objects
 - Go to `Scripting` tab, open python script
     - `automatic_boolean_operation.py` will simply apply union operation
     - `automatic_boolean_operation_various.py` will randomly apply union / difference / intersect operation
